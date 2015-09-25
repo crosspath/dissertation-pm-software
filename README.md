@@ -1,2 +1,3 @@
-# dissertation-pm-software
-Nochevnov's dissertation about structure and functionality of project management software
+The dissertation is about structure and functionality of project management software.
+
+Author: Evgeny Nochevnov.
