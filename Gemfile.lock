@@ -1,0 +1,10 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    redcarpet (3.3.2)
+
+PLATFORMS
+  x86-mingw32
+
+DEPENDENCIES
+  redcarpet

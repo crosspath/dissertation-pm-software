@@ -1,0 +1,13 @@
+.title { text-align: center; font-weight: bold; }
+.larger { font-size: larger; }
+.right { text-align: right; }
+
+.no-borders + table > tbody > tr > td { border-width: 0; }
+.no-borders + table > thead { display: none; }
+table { border-collapse: collapse; }
+td, th { border: 1px solid gray; }
+
+h1 { font-size: 24px; }
+p, td, th, li { font-size: 20px; }
+p { text-indent: 3em; }
+p.before_table_caption + p  { text-indent: 0em; }
