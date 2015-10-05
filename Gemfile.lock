@@ -4,6 +4,7 @@ GEM
     redcarpet (3.3.2)
 
 PLATFORMS
+  ruby
   x86-mingw32
 
 DEPENDENCIES
