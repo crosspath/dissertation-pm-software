@@ -14,7 +14,7 @@ end
 
 DOCUMENTS_CONVERT.each do |doc|
   file = File.read(doc)
-  html = Redcarpet::Markdown.new(Redcarpet::Render::HTML, no_intra_emphasis: true, tables: true).render(file)
+  html = Redcarpet::Markdown.new(Redcarpet::Render::SmartyHTML, no_intra_emphasis: true, tables: true).render(file)
   name_only = doc.match(/^(.*?)\.[^\.]+$/)[1]
   File.open("#{name_only}.html",'w') { |f| f << html }
 end
