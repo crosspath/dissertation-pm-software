@@ -1,0 +1,19 @@
+/* Титульный лист */
+.title { text-align: center; font-weight: bold; }
+.larger { font-size: larger; }
+.right { text-align: right; }
+
+/* Обычные элементы */
+table { border-collapse: collapse; }
+td, th { border: 1px solid gray; }
+p { text-indent: 3em; }
+ul, ol { margin-left: 2.5em; }
+li ul, li ol { margin-left: 0; margin-top: 0.5em; padding-left: 1em; }
+
+/* Стили таблиц и рисунков */
+.no-borders + table > tbody > tr > td { border-width: 0; }
+.no-borders + table > thead { display: none; }
+p.before_table_caption + p, li > p { text-indent: 0em; }
+p.before_image + p, p.before_image + p + p { text-indent: 0em; text-align: center; }
+
+.hidden { display: none; }
