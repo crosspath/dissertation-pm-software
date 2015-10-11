@@ -1,16 +1,16 @@
-/* Òèòóëüíûé ëèñò */
+/* Ð¢Ð¸Ñ‚ÑƒÐ»ÑŒÐ½Ñ‹Ð¹ Ð»Ð¸ÑÑ‚ */
 .title { text-align: center; font-weight: bold; }
 .larger { font-size: larger; }
 .right { text-align: right; }
 
-/* Îáû÷íûå ýëåìåíòû */
+/* ÐžÐ±Ñ‹Ñ‡Ð½Ñ‹Ðµ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ñ‹ */
 table { border-collapse: collapse; }
 td, th { border: 1px solid gray; }
 p { text-indent: 3em; }
 ul, ol { margin-left: 2.5em; }
 li ul, li ol { margin-left: 0; margin-top: 0.5em; padding-left: 1em; }
 
-/* Ñòèëè òàáëèö è ðèñóíêîâ */
+/* Ð¡Ñ‚Ð¸Ð»Ð¸ Ñ‚Ð°Ð±Ð»Ð¸Ñ† Ð¸ Ñ€Ð¸ÑÑƒÐ½ÐºÐ¾Ð² */
 .no-borders + table > tbody > tr > td { border-width: 0; }
 .no-borders + table > thead { display: none; }
 p.before_table_caption + p, li > p { text-indent: 0em; }
