@@ -19,3 +19,7 @@ p.before_image + p, p.before_image + p + p { text-indent: 0em; text-align: cente
 
 .hidden { display: none; }
 .page-break-after { page-break-after: always; }
+
+@media print {
+  table { width: 100%; }
+}
