@@ -1,6 +1,6 @@
-# Dissertation about development of project management software
+# Dissertation about development of project management information system (PMIS)
 
-The dissertation is about structure and functionality of software for managing software projects. Mix: software project management software.
+The dissertation is about structure and functionality of information system for managing software projects. Mix: software project management information system.
 
 Author: Evgeny Nochevnov.
 
